@@ -3,32 +3,32 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<meta name="language" content="en">	
+	<meta name="language" content="en">
 
-	<link rel="stylesheet" href="<?php echo Yii::app()->baseUrl;?>/css/btmin.css">
-	<link rel="stylesheet" href="<?php echo Yii::app()->baseUrl;?>/css/style.css">
-	<script src="<?php echo Yii::app()->baseUrl;?>/js/jq.js"></script>
-	<script src="<?php echo Yii::app()->baseUrl;?>/js/btmin.js"></script>
+	<?php
+		echo Yii::app()->bootstrap->registerAllCss();
+		echo Yii::app()->bootstrap->registerCoreScripts();
+	?>
 
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
 
 <body>
 
-	<nav class="navbar navbar-inverse">
-		<div class="container">	
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>					
-					</button>
-					<a class="brand" href="<?php echo Yii::app()->homeUrl;?>">
-						<?php echo CHtml::encode(Yii::app()->name);?>
-					</a>
-				</div>
-				<div class="collapse navbar-collapse navbar-ex1-collapse">	    
-			    	<?php $this->widget('zii.widgets.CMenu',array(
+
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<button type="button" class="btn btn-navbar" data-toogle="collapse" data-target=".nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>					
+				</button>
+				<a class="brand" href="<?php echo Yii::app()->homeUrl;?>">
+					<?php echo CHtml::encode(Yii::app()->name);?>
+				</a>
+				<div class="nav-collapse collapse">
+					<?php $this->widget('zii.widgets.CMenu',array(
 						'items'=>array(
 							array('label'=>'Inicio', 'url'=>array('/site/index')),
 							array('label'=>'Mecanicos', 'url'=>array('/mecanico/index')),
@@ -39,26 +39,24 @@
 						),
 
 						'htmlOptions'=> array(
-							'class' => 'nav navbar-nav'
+							'class' => 'nav nabvar-nav'
 						),
 					)); ?>
 				</div>
+			</div>
 		</div>
-	</nav>
-
+	</div><!-- mainmenu -->
 	
 	<div class="container">
 		<div class="page-header">
-			<!--<br><br>-->
+			<br><br>
 			<?php if(isset($this->breadcrumbs)):?>
 				<?php $this->widget('zii.widgets.CBreadcrumbs', array(
 					'links'=>$this->breadcrumbs,
 				)); ?><!-- breadcrumbs -->
 			<?php endif?>
 		</div>
-
-
-		<?php echo $content; ?>			
+		<?php echo $content; ?>
 
 
 		<div class="footer text-center">
