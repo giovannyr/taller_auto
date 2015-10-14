@@ -109,7 +109,13 @@ CREATE TABLE `servicio` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `servicio` varchar(250) DEFAULT NULL,
   `precio` varchar(100) DEFAULT NULL,
-  PRIMARY KEY (`id`)
+  `placa_vehiculo` varchar(45) DEFAULT NULL,
+  `cc_mecanico` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `fkv_idx` (`placa_vehiculo`),
+  KEY `fkm_idx` (`cc_mecanico`),
+  CONSTRAINT `fkm` FOREIGN KEY (`cc_mecanico`) REFERENCES `mecanico` (`cedula`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `fkv` FOREIGN KEY (`placa_vehiculo`) REFERENCES `vehiculo` (`placa`) ON DELETE NO ACTION ON UPDATE NO ACTION
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -162,4 +168,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2015-10-02  7:20:50
+-- Dump completed on 2015-10-13 23:09:58
