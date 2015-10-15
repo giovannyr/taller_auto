@@ -7,6 +7,7 @@
 
 	<link rel="stylesheet" href="<?php echo Yii::app()->baseUrl;?>/css/btmin.css">
 	<link rel="stylesheet" href="<?php echo Yii::app()->baseUrl;?>/css/style.css">
+	<link rel="stylesheet" href="<?php echo Yii::app()->baseUrl;?>/css/fonts.css">
 	<script src="<?php echo Yii::app()->baseUrl;?>/js/jq.js"></script>
 	<script src="<?php echo Yii::app()->baseUrl;?>/js/btmin.js"></script>
 
@@ -60,11 +61,11 @@
 
 		<?php echo $content; ?>			
 
-
-		<div class="footer text-center">
-			Copyright &copy; <?php echo date('Y'); ?> by My Company.<br/>
+		<!--
+		<div class="text-center" id="footer">
+			Copyright &copy; <?php //echo date('Y'); ?> by My Company.<br/>
 			All Rights Reserved.<br/>
-			<?php echo Yii::powered(); ?>
+			<?php// echo Yii::powered(); ?>
 		</div><!-- footer -->
 	</div>
 

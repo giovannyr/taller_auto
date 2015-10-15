@@ -51,12 +51,13 @@ h3
 	padding: 20px 0 20px 20px;
 }
 
-#footer
+.footer
 {
 	margin: 0 auto;
 	width: 950px;
 	font-size: 0.8em;
 	text-align: center;
+	background-color: green;
 }
 
 #logo

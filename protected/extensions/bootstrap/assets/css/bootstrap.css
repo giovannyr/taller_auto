@@ -6156,3 +6156,7 @@ a.badge:focus {
 .affix {
   position: fixed;
 }
+
+.footer{
+  background-color: blue !important;
+}
