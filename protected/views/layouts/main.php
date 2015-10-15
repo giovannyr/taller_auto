@@ -25,7 +25,7 @@
 						<span class="icon-bar"></span>					
 					</button>
 					<a class="brand" href="<?php echo Yii::app()->homeUrl;?>">
-						<?php echo CHtml::encode(Yii::app()->name);?>
+						<i class="fa fa-navicon"></i>
 					</a>
 				</div>
 				<div class="collapse navbar-collapse navbar-ex1-collapse">	    
