@@ -1,3 +1,4 @@
+<div class="transparencia">
 <?php
 /* @var $this MecanicoController */
 /* @var $model Mecanico */
@@ -29,3 +30,4 @@ $this->menu=array(
 		'direccion',
 	),
 )); ?>
+</div>

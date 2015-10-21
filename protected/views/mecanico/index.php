@@ -1,3 +1,4 @@
+
 <?php
 /* @var $this MecanicoController */
 /* @var $dataProvider CActiveDataProvider */
@@ -7,8 +8,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create Mecanico', 'url'=>array('create')),
-	array('label'=>'Manage Mecanico', 'url'=>array('admin')),
+	array('label'=>'Crear un Mecanico', 'url'=>array('create')),
+	array('label'=>'Administrar Mecanicos', 'url'=>array('admin')),
 );
 ?>
 
