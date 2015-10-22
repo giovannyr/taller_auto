@@ -1,4 +1,4 @@
-<div class="transparencia">
+
 <?php
 /* @var $this MecanicoController */
 /* @var $model Mecanico */
@@ -17,4 +17,3 @@ $this->menu=array(
 <h1>Crear Mecanico</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>
-</div>

@@ -1,4 +1,4 @@
-<div class="transparencia">
+
 <?php
 /* @var $this MecanicoController */
 /* @var $data Mecanico */
@@ -31,4 +31,3 @@
 		<br />
 
 	</div>
-</div>

@@ -5,7 +5,7 @@
 ?>
 
 	<div class="form">
-		<div class="transparencia">
+		
 			<?php $form=$this->beginWidget('CActiveForm', array(
 				'id'=>'mecanico-form',
 				// Please note: When you enable ajax validation, make sure the corresponding
@@ -14,52 +14,67 @@
 				// See class documentation of CActiveForm for details on this.
 				'enableAjaxValidation'=>false,
 			)); ?>
-
-				<p class="note">Fields with <span class="required">*</span> are required.</p>
-
+			<hr>
 				<?php echo $form->errorSummary($model); ?>
 
 				<div class="row">
-					<?php echo $form->labelEx($model,'cedula'); ?>
-					<?php echo $form->textField($model,'cedula',array('size'=>45,'maxlength'=>45)); ?>
-					<?php echo $form->error($model,'cedula'); ?>
+					<div class="col-lg-6">
+						<div class="form-group">
+							<?php echo $form->labelEx($model,'cedula'); ?>
+							<?php echo $form->textField($model,'cedula',array('Class'=>'form-control')); ?>
+							<?php echo $form->error($model,'cedula'); ?>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="form-group">
+							<?php echo $form->labelEx($model,'nombre'); ?>
+							<?php echo $form->textField($model,'nombre',array('Class'=>'form-control')); ?>
+							<?php echo $form->error($model,'nombre'); ?>
+						</div>
+					</div>	
 				</div>
 
 				<div class="row">
-					<?php echo $form->labelEx($model,'nombre'); ?>
-					<?php echo $form->textField($model,'nombre',array('size'=>60,'maxlength'=>250)); ?>
-					<?php echo $form->error($model,'nombre'); ?>
+					<div class="col-lg-6">
+						<div class="form-group">
+							<?php echo $form->labelEx($model,'correo'); ?>
+							<?php echo $form->textField($model,'correo',array('Class'=>'form-control')); ?>
+							<?php echo $form->error($model,'correo'); ?>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="form-group">
+							<?php echo $form->labelEx($model,'celular'); ?>
+							<?php echo $form->textField($model,'celular',array('Class'=>'form-control')); ?>
+							<?php echo $form->error($model,'celular'); ?>
+						</div>
+					</div>
 				</div>
 
 				<div class="row">
-					<?php echo $form->labelEx($model,'correo'); ?>
-					<?php echo $form->textField($model,'correo',array('size'=>60,'maxlength'=>100)); ?>
-					<?php echo $form->error($model,'correo'); ?>
+					<div class="col-lg-6">
+						<div class="form-group">
+							<?php echo $form->labelEx($model,'telefono'); ?>
+							<?php echo $form->textField($model,'telefono',array('Class'=>'form-control')); ?>
+							<?php echo $form->error($model,'telefono'); ?>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="form-group">
+							<?php echo $form->labelEx($model,'direccion'); ?>
+							<?php echo $form->textField($model,'direccion',array('Class'=>'form-control')); ?>
+							<?php echo $form->error($model,'direccion'); ?>
+						</div>
+					</div>
 				</div>
 
 				<div class="row">
-					<?php echo $form->labelEx($model,'celular'); ?>
-					<?php echo $form->textField($model,'celular',array('size'=>45,'maxlength'=>45)); ?>
-					<?php echo $form->error($model,'celular'); ?>
-				</div>
-
-				<div class="row">
-					<?php echo $form->labelEx($model,'telefono'); ?>
-					<?php echo $form->textField($model,'telefono',array('size'=>45,'maxlength'=>45)); ?>
-					<?php echo $form->error($model,'telefono'); ?>
-				</div>
-
-				<div class="row">
-					<?php echo $form->labelEx($model,'direccion'); ?>
-					<?php echo $form->textField($model,'direccion',array('size'=>60,'maxlength'=>100)); ?>
-					<?php echo $form->error($model,'direccion'); ?>
-				</div>
-
-				<div class="row buttons">
-					<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save', array('class' => 'btn btn-primary')); ?>
+					<div class="col-lg-12 alinear-derecha">
+						<br>
+						<?php echo CHtml::submitButton($model->isNewRecord ? 'Crear' : 'Save', array('Class' => 'btn btn-primary')); ?>
+					</div>
 				</div>
 
 			<?php $this->endWidget(); ?>
 		</div>
-	</div><!-- form -->
 
