@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="<?php echo Yii::app()->baseUrl;?>/css/fonts.css">
 	<script src="<?php echo Yii::app()->baseUrl;?>/js/jq.js"></script>
 	<script src="<?php echo Yii::app()->baseUrl;?>/js/btmin.js"></script>
-
+	<script src="<?php echo Yii::app()->baseUrl;?>/js/mecanico.js"></script>
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
 

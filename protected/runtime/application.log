@@ -640,3 +640,168 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/taller_auto/sevicio/index.html
 ---
+2015/10/22 02:41:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/mecanic...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taller_auto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taller_auto/site/js/mecanico.js
+HTTP_REFERER=http://localhost:8085/taller_auto/site/index.html
+---
+2015/10/22 02:41:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/mecanic...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taller_auto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taller_auto/site/js/mecanico.js
+HTTP_REFERER=http://localhost:8085/taller_auto/site/index.html
+---
+2015/10/22 02:41:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/mecanic...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taller_auto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taller_auto/site/js/mecanico.js
+HTTP_REFERER=http://localhost:8085/taller_auto/site/index.html
+---
+2015/10/22 02:41:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/mecanic...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taller_auto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taller_auto/site/js/mecanico.js
+HTTP_REFERER=http://localhost:8085/taller_auto/site/index.html
+---
+2015/10/22 02:41:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/mecanic...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taller_auto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taller_auto/site/js/mecanico.js
+HTTP_REFERER=http://localhost:8085/taller_auto/site/index.html
+---
+2015/10/22 02:41:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/mecanic...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taller_auto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taller_auto/site/js/mecanico.js
+HTTP_REFERER=http://localhost:8085/taller_auto/site/index.html
+---
+2015/10/22 02:41:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/mecanic...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taller_auto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taller_auto/site/js/mecanico.js
+HTTP_REFERER=http://localhost:8085/taller_auto/site/index.html
+---
+2015/10/22 02:41:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/mecanic...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taller_auto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taller_auto/site/js/mecanico.js
+HTTP_REFERER=http://localhost:8085/taller_auto/site/index.html
+---
+2015/10/22 02:41:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/mecanic...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taller_auto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taller_auto/site/js/mecanico.js
+HTTP_REFERER=http://localhost:8085/taller_auto/site/index.html
+---
+2015/10/22 02:41:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/mecanic...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taller_auto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taller_auto/site/js/mecanico.js
+HTTP_REFERER=http://localhost:8085/taller_auto/site/index.html
+---
+2015/10/22 02:41:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/mecanic...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taller_auto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taller_auto/site/js/mecanico.js
+HTTP_REFERER=http://localhost:8085/taller_auto/site/index.html
+---
+2015/10/22 02:41:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/mecanic...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taller_auto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taller_auto/site/js/mecanico.js
+HTTP_REFERER=http://localhost:8085/taller_auto/site/index.html
+---
+2015/10/22 02:41:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/mecanic...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taller_auto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taller_auto/site/js/mecanico.js
+HTTP_REFERER=http://localhost:8085/taller_auto/site/index.html
+---
+2015/10/22 02:41:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/mecanic...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taller_auto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taller_auto/site/js/mecanico.js
+HTTP_REFERER=http://localhost:8085/taller_auto/site/index.html
+---
+2015/10/22 02:41:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/mecanic...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\taller_auto\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/taller_auto/site/js/mecanico.js
+HTTP_REFERER=http://localhost:8085/taller_auto/site/index.html
+---

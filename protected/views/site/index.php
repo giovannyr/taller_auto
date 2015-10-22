@@ -14,7 +14,7 @@ $this->pageTitle=Yii::app()->name;
 				<th>Acciones</th>
 			</tr>
 		</thead>
-		<tbody>
+		<tbody id="mostrarMecanicos">
 			<tr>
 				<td></td>
 				<td></td>
@@ -24,4 +24,6 @@ $this->pageTitle=Yii::app()->name;
 		</tbody>
 	</table>
 </div>
+
+
 
