@@ -122,7 +122,12 @@ class ServicioController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('Servicio');
+		$criteria = new CDbCriteria(array(            
+								'group'=>'placa_vehiculo',
+                                'order'=>'fecha desc',
+                        ));
+
+		$dataProvider=new CActiveDataProvider('Servicio', array('criteria'=>$criteria));
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));

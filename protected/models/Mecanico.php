@@ -10,6 +10,9 @@
  * @property string $celular
  * @property string $telefono
  * @property string $direccion
+ *
+ * The followings are the available model relations:
+ * @property Servicio[] $servicios
  */
 class Mecanico extends CActiveRecord
 {
@@ -47,6 +50,7 @@ class Mecanico extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'servicios' => array(self::HAS_MANY, 'Servicio', 'cc_mecanico'),
 		);
 	}
 

@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="<?php echo Yii::app()->baseUrl;?>/css/fonts.css">
 	<script src="<?php echo Yii::app()->baseUrl;?>/js/jq.js"></script>
 	<script src="<?php echo Yii::app()->baseUrl;?>/js/btmin.js"></script>
-
+	<script src="<?php echo Yii::app()->baseUrl;?>/js/mecanico.js"></script>
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
 
@@ -32,8 +32,9 @@
 			    	<?php $this->widget('zii.widgets.CMenu',array(
 						'items'=>array(
 							array('label'=>'Inicio', 'url'=>array('/site/index')),
+							array('label'=>'Historial', 'url'=>array('/servicio/index')),
 							array('label'=>'Mecanicos', 'url'=>array('/mecanico/index')),
-							array('label'=>'Acerca de nosotros', 'url'=>array('/site/page', 'view'=>'about')),
+							//array('label'=>'Menu', 'url'=>array('/site/page', 'view'=>'about')),
 							array('label'=>'Contactenos', 'url'=>array('/site/contact')),
 							array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
 							array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
@@ -48,7 +49,7 @@
 	</nav>
 
 	
-	<div class="container">
+	<div class="container main">
 		<div class="page-header">
 			<!--<br><br>-->
 			<?php if(isset($this->breadcrumbs)):?>

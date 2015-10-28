@@ -1,26 +1,20 @@
 <?php
 
 /**
- * This is the model class for table "vehiculo".
+ * This is the model class for table "inventario_servicio".
  *
- * The followings are the available columns in table 'vehiculo':
- * @property string $placa
- * @property string $marca
- * @property string $modelo
- * @property string $cedula_cliente
- *
- * The followings are the available model relations:
- * @property Servicio[] $servicios
- * @property Cliente $cedulaCliente
+ * The followings are the available columns in table 'inventario_servicio':
+ * @property integer $inventario_id
+ * @property integer $servicio_id
  */
-class Vehiculo extends CActiveRecord
+class InventarioServicio extends CActiveRecord
 {
 	/**
 	 * @return string the associated database table name
 	 */
 	public function tableName()
 	{
-		return 'vehiculo';
+		return 'inventario_servicio';
 	}
 
 	/**
@@ -31,12 +25,11 @@ class Vehiculo extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('placa', 'required'),
-			array('placa, cedula_cliente', 'length', 'max'=>45),
-			array('marca, modelo', 'length', 'max'=>100),
+			array('inventario_id, servicio_id', 'required'),
+			array('inventario_id, servicio_id', 'numerical', 'integerOnly'=>true),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('placa, marca, modelo, cedula_cliente', 'safe', 'on'=>'search'),
+			array('inventario_id, servicio_id', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -48,8 +41,6 @@ class Vehiculo extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'servicios' => array(self::HAS_MANY, 'Servicio', 'placa_vehiculo'),
-			'cedulaCliente' => array(self::BELONGS_TO, 'Cliente', 'cedula_cliente'),
 		);
 	}
 
@@ -59,10 +50,8 @@ class Vehiculo extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'placa' => 'Placa',
-			'marca' => 'Marca',
-			'modelo' => 'Modelo',
-			'cedula_cliente' => 'Cedula Cliente',
+			'inventario_id' => 'Inventario',
+			'servicio_id' => 'Servicio',
 		);
 	}
 
@@ -84,10 +73,8 @@ class Vehiculo extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('placa',$this->placa,true);
-		$criteria->compare('marca',$this->marca,true);
-		$criteria->compare('modelo',$this->modelo,true);
-		$criteria->compare('cedula_cliente',$this->cedula_cliente,true);
+		$criteria->compare('inventario_id',$this->inventario_id);
+		$criteria->compare('servicio_id',$this->servicio_id);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
@@ -98,7 +85,7 @@ class Vehiculo extends CActiveRecord
 	 * Returns the static model of the specified AR class.
 	 * Please note that you should have this exact method in all your CActiveRecord descendants!
 	 * @param string $className active record class name.
-	 * @return Vehiculo the static model class
+	 * @return InventarioServicio the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{

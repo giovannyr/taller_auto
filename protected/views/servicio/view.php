@@ -22,7 +22,10 @@ $this->menu=array(
 	'data'=>$model,
 	'attributes'=>array(
 		'id',
-		'servicio',
 		'precio',
+		'fecha',
+		'placa_vehiculo',
+		'cc_mecanico',
+		'lista_servicios_id',
 	),
 )); ?>

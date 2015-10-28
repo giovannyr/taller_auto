@@ -17,13 +17,28 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'servicio'); ?>
-		<?php echo $form->textField($model,'servicio',array('size'=>60,'maxlength'=>250)); ?>
+		<?php echo $form->label($model,'precio'); ?>
+		<?php echo $form->textField($model,'precio',array('size'=>60,'maxlength'=>100)); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'precio'); ?>
-		<?php echo $form->textField($model,'precio',array('size'=>60,'maxlength'=>100)); ?>
+		<?php echo $form->label($model,'fecha'); ?>
+		<?php echo $form->textField($model,'fecha'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'placa_vehiculo'); ?>
+		<?php echo $form->textField($model,'placa_vehiculo',array('size'=>45,'maxlength'=>45)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'cc_mecanico'); ?>
+		<?php echo $form->textField($model,'cc_mecanico',array('size'=>45,'maxlength'=>45)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'lista_servicios_id'); ?>
+		<?php echo $form->textField($model,'lista_servicios_id'); ?>
 	</div>
 
 	<div class="row buttons">
